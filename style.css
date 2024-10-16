@@ -1,0 +1,97 @@
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #eb1818;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+header {
+    background-color: #2c3e50;
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(235, 14, 14);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(221, 27, 27);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+img {
+    max-width: 100%;
+    border-radius: 15px;
+    margin: 20px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+section {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.about h2, .links h2 {
+    color: #34495e;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e67e22;
+    display: inline-block;
+}
+
+.about p, .links p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about ul li {
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+.about ul li::before {
+    content: '🎬';
+    margin-right: 10px;
+}
+
+
+.links a {
+    color: #e67e22;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #d35400;
+}
+
+
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 1rem;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+}
